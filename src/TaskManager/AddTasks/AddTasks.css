@@ -1,4 +1,6 @@
 .add-tasks-container {
+    position: absolute;
+    left: 36%;
     z-index: 10;
     width: 500px;
     height: 500px;
@@ -6,4 +8,22 @@
     border: 1px solid lightgray;
     padding: 20px;
     border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+.add-tasks-maintaner {
+    margin: 10px;
+
+}
+
+.mainteiner-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: min-content;
+    height: 100px;
+}
+
+.form-btn {
+    margin: 10px;
 }
